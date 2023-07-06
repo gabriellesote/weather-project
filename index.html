@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet" />
+  <title>Weather report</title>
+  <link rel="icon" type="image/png" href="https://openweathermap.org/img/wn/04n.png">
+</head>
+
+<body>
+  <div class="caixa-maior">
+    <input class="input-cidade" placeholder="Digite o nome da cidade" />
+    <button class="botao-buscar">
+      <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="buscar" />
+    </button>
+
+    <div class="caixa-media">
+
+      <h2 class="cidade">Tempo em São Paulo</h2>
+      <p class="temp">21°C</p>
+
+      <div class="caixa-menor">
+
+        <img class="img-previsao" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png" />
+        <p class="texto-previsao">Nublado</p>
+
+      </div>
+
+      <p class="umidade">Umidade: 76%</p>
+    </div>
+  </div>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
